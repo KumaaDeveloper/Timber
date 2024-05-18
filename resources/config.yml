@@ -1,0 +1,12 @@
+# Timber Config
+
+# Specify the folder name of each world where Timber should work on.
+worlds:
+- world
+- anotherworld
+
+# Makes leaves chops aswell when chops down trees
+leaves: true
+
+# Aktifkan autopickup (true/false)
+auto_pickup: true
