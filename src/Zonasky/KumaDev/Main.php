@@ -39,7 +39,7 @@ class Main extends PluginBase implements Listener {
         $player = $event->getPlayer();
         $block = $event->getBlock();
         $worldName = $block->getPosition()->getWorld()->getFolderName();
-        if (!$this->isTimberWorld($worldName) || $event->isCancelled()) return;
+        if (!$this->isTimberWorld($worldName) || $event->isCancelled()) {
             return;
         }
 
