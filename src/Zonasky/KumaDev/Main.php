@@ -43,6 +43,12 @@ class Main extends PluginBase implements Listener {
             return;
         }
 
+        $onlySneak = $this->config->get("onlysneak", false);
+        if ($onlySneak && !$player->isSneaking()) {
+            // Timber is not active if the player is not sneaking and onlysneak is true
+            return;
+        }
+
         if ($this->isLogBlock($block)) {
             $treeBlocks = $this->getTreeBlocks($block);
             $world = $block->getPosition()->getWorld();

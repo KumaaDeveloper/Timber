@@ -7,6 +7,10 @@ worlds:
 
 # Makes leaves chops aswell when chops down trees
 leaves: true
+maxLeafDrops: 10
 
-# Aktifkan autopickup (true/false)
+# Actived Autopickup (true/false)
 auto_pickup: true
+
+# Actived OnlySneak (true/false)
+onlysneak: true
