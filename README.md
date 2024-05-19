@@ -6,6 +6,7 @@ Timber is a PocketMine plugin that allows players to instantly chop down trees w
 - Effortlessly gather wood more efficiently
 - Speed up your woodcutting with Timber
 - Autopickup
+- OnlySneak
 
 # Usage
 To use Timber, simply break the bottom block of a tree with any tool or weapon. The entire tree will be instantly chopped down, allowing you to quickly and efficiently gather wood.
@@ -20,6 +21,7 @@ Believe it or not, Yes we are planning to implement Custom Tools, a command for 
 # Bug And Issues
 - Fix Server Freeze
 - Fix Autopickup
+- Fix OnlySneak
 
 # Credit
 Timber was developed by [Inaayat](https://github.com/Inaay), [skyss0fly](https://github.com/skyss0fly). Fix and remake by [KumaDev](https://github.com/KumaaDev)
